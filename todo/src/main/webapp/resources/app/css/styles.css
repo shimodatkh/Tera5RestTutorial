@@ -1,5 +1,40 @@
 /* @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700); */
 
+/* ... */
+
+.strike {
+    text-decoration: line-through;
+}
+
+.alert {
+    border: 1px solid;
+    margin-bottom: 5px;
+}
+
+.alert-error {
+    background-color: #c60f13;
+    border-color: #970b0e;
+    color: white;
+}
+
+.alert-success {
+    background-color: #5da423;
+    border-color: #457a1a;
+    color: white;
+}
+
+.text-error {
+    color: #c60f13;
+}
+
+.alert ul {
+    margin: 15px 0px 15px 0px;
+}
+
+#todoList li {
+    margin-top: 5px;
+}
+
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
